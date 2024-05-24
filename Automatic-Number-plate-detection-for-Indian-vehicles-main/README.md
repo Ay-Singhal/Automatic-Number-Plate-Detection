@@ -1,0 +1,16 @@
+Automatic Number Plate Recognition (ANPR):
+Automatic Number Plate Recognition (ANPR), also known as License Plate Recognition (LPR), involves using image processing techniques to identify vehicle registration plates. This technology is crucial in smart city applications and the Internet of Things (IoT), especially given the rapid increase in the number of vehicles, necessitating automated systems for vehicle information management.
+
+
+Implementation Details
+The proposed algorithm presents an effective method for recognizing number plates of Indian vehicles. It is designed to handle various challenges such as noise, low illumination, angled views, and non-standard fonts. The approach involves several stages of image processing:
+
+Pre-processing: This stage includes morphological transformations, Gaussian smoothing, Gaussian thresholding, and Sobel edge detection to enhance the image and prepare it for further analysis.
+Number Plate Segmentation: The enhanced image is processed to segment the number plate using contour detection. Border following techniques are employed to identify contours, which are then filtered based on character dimensions and spatial localization.
+Optical Character Recognition (OCR): The segmented characters are recognized using OCR technology. The detected text is stored in a database, enabling easy sorting and searching.
+The system is efficient in recognizing vehicle owners' information in settings such as small institutions, housing societies, and apartment complexes. The code can be adapted for broader applications where ANPR systems are required.
+
+
+
+Conclusion:
+This project demonstrates the potential for effective and automated recognition of vehicle number plates, contributing to the development of smarter, more connected urban environments.
